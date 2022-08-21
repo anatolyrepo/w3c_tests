@@ -4,7 +4,6 @@ from deepdiff import DeepDiff
 class Assertions:
     """
     Типовые проверки для тестов.
-
     """
 
     @staticmethod
