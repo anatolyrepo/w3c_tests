@@ -1,8 +1,8 @@
 import pytest
 from selenium.webdriver.chromium.webdriver import ChromiumDriver
 
-from helpers.assertions.assertions import Assertions
-from helpers.configs.config import Config
+from assertions.assertions import Assertions
+from configs.config import Config
 
 
 class BaseUiTestClass:

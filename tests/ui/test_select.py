@@ -1,7 +1,7 @@
 import pytest
 
-from helpers.pages.sql_try_select_all import SqlSelectAllPage
-from helpers.suite.base import BaseUiTestClass
+from pages.sql_try_select_all import SqlSelectAllPage
+from suite.base import BaseUiTestClass
 
 
 @pytest.mark.sql_tests

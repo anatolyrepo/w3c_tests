@@ -1,9 +1,9 @@
 import pytest
 
-from helpers.configs.config import Config
-from helpers.pages.main_page import MainPage
-from helpers.pages.sql_page import SqlPage
-from helpers.suite.base import BaseUiTestClass
+from configs.config import Config
+from pages.main_page import MainPage
+from pages.sql_page import SqlPage
+from suite.base import BaseUiTestClass
 
 
 @pytest.mark.main_page

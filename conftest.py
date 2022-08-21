@@ -2,7 +2,7 @@ import pytest
 from selenium.webdriver import Chrome
 from webdriver_manager.chrome import ChromeDriverManager
 
-from helpers.configs.config import Config
+from configs.config import Config
 
 manager = ChromeDriverManager()
 path = manager.install()
