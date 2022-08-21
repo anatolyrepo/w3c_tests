@@ -1,2 +1,1 @@
- pytest -m "sql_tests"
- 
+ pytest -m "sql_tests or main_page"
