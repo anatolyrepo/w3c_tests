@@ -1,0 +1,4 @@
+webdriver-manager
+pytest
+selenium
+deepdiff
