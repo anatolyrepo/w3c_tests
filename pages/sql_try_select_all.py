@@ -14,7 +14,7 @@ class SqlSelectAllPage(BasePage):
 
     RUN_SQL_BTN = (By.CSS_SELECTOR, ".ws-btn")
     CODE_MIRROR = (By.CSS_SELECTOR, "div.CodeMirror-lines")
-    NUMBER_OF_RECORDS = (By.CSS_SELECTOR, ".w3-white > div:nth-child(1)  div")
+    NUMBER_OF_RECORDS = (By.CSS_SELECTOR, "#resultSQL .w3-white > div:nth-child(1)  div")
     SUCCESS_RESULT = (By.CSS_SELECTOR, "#resultSQL .w3-white > div:nth-child(1)")
 
     INFO_ABOUT_RESTORE_DATABASE = (By.CSS_SELECTOR, "#resultSQL > .w3-white  > :nth-child(5)")
