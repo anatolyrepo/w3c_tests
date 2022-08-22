@@ -4,6 +4,9 @@ from pages.sql_try_select_all import SqlSelectAllPage
 from suite.base import BaseUiTestClass
 
 
+# Скорее всего, правильнее будет проверять не по номеру строки, как сделано у меня,
+# а по тексту (имя, адрес и т д). И после нахождения совпадения можно определять номер строки и
+# вытаскивать оттуда необходимые данные
 @pytest.mark.sql_tests
 class TestSqlSelectInsertUpdate(BaseUiTestClass):
 
